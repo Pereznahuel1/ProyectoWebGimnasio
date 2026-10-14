@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+<FilesMatch "^(config\.php|bootstrap\.php|panel\.php|layout\.php|schema\.php|domain\.php|module\.php|actualizar\.php|ESTRUCTURA\.md|instalar\.php|README\.md)$">
+    Require all denied
+</FilesMatch>
